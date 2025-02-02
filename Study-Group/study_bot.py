@@ -43,6 +43,3 @@ async def progress(ctx, progress_percentage: int):
 @bot.event
 async def on_ready():
     print(f'{bot.user} hat sich erfolgreich mit Discord verbunden!')
-
-# Bot starten
-bot.run("MTMzNTY5MTkyODMyMjQ0NTQ3Mw.GlHLbg.99gLaCWzxgovxW6mzwifkhJbULgVD9obFwldOA")  # Ersetze "DEIN_BOT_TOKEN" mit deinem echten Token
